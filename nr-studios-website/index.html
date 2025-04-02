@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N.R. Studios</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="galaxy-background">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </div>
+
+    <div class="loading-screen">
+        <div class="space-loader">
+            <div class="orbit">
+                <div class="planet"></div>
+                <div class="satellite"></div>
+            </div>
+        </div>
+        <div class="loading-logo">N.R. Studios</div>
+        <p class="loading-text">Entering the gaming universe...</p>
+    </div>
+
+    <!-- Welcome Overlay -->
+    <div class="welcome-overlay">
+        <h1>Welcome to N.R. Studios</h1>
+        <p>Creating innovative gaming experiences on Roblox</p>
+        
+        <div class="about-preview">
+            <h3>About Us</h3>
+            <p>N.R. Studios was founded by nekorimnas and rimexizos, passionate web and game developers creating unique Roblox experiences. We focus on innovative gameplay and immersive worlds that captivate players.</p>
+        </div>
+        
+        <div class="cta-button">
+            <a href="#" id="enter-button">Enter Studio <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+    <div class="window">
+        <!-- macOS-style traffic lights -->
+        <div class="titlebar">
+            <div class="traffic-lights">
+                <span class="traffic-light red"></span>
+                <span class="traffic-light yellow"></span>
+                <span class="traffic-light green"></span>
+            </div>
+            <h1 class="title">N.R. Studios</h1>
+            <div class="spacer"></div>
+        </div>
+
+        <!-- Sidebar Navigation -->
+        <div class="sidebar">
+            <div class="logo">
+                <h2>N.R.</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active"><a href="#games"><i class="fas fa-gamepad"></i> Games</a></li>
+                    <li><a href="#changelogs"><i class="fas fa-clipboard-list"></i> Changelogs</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="content">
+            <!-- Games Section -->
+            <div id="games" class="section active">
+                <h2>Our Games</h2>
+                <div class="games-grid">
+                    <!-- Game Card 1 -->
+                    <div class="game-card">
+                        <div class="game-thumbnail">
+                            <img src="img/game1-placeholder.jpg" alt="Tactical Assault Reborn">
+                        </div>
+                        <div class="game-info">
+                            <h3>Tactical Assault Reborn</h3>
+                            <p class="game-description">FPS shooter, after spawn you must find loot in certain boxes, not all weapons and non-gifts are present in the game since the game is still in testing.
+
+                                THE GAME SUPPORTS MOBILE DEVICES, MORE COMFORTABLE SETTINGS FOR MOBILE PHONES WILL BE ADDED SOON
+                                
+                                - MAP UPDATE
+                                
+                                there will be more information in the DS server, go there, there will be everything about further updates and the like!
+                                
+                                TO Join the DS Server Scroll below</p>
+                            <div class="game-stats">
+                                <span><i class="fas fa-user"></i> Visits: 19</span>
+                                <span><i class="fas fa-star"></i> Rating: 3.0</span>
+                            </div>
+                            <a href="#" class="play-button">Play Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Game Card 2 -->
+                    <div class="game-card">
+                        <div class="game-thumbnail">
+                            <img src="img/game2-placeholder.jpg" alt="Untitled Invincible Game">
+                        </div>
+                        <div class="game-info">
+                            <h3>Untitled Invincible Game</h3>
+                            <p class="game-description">Welcome to the  invincible simulator!
+                                ----------------
+                                Play as Sinister Mark, kill people with flight.
+                                
+                                this is fun sandbox game, not battleground.
+                                -------------------------
+                                PC/MOBILE SUPPORT
+                                --------------------------------------------
+                                Controls:PC
+                                F - FLY
+                                E - BOOST/PUSH
+                                SPACE - UP
+                                SHIFT - DOWN
+                                Q - FINISH
+                                To destroy buildings, press E a bunch of times and aim at the building itself.
+                                ---------------------------------
+                                Controls:CONSOLE
+                                in progress 
+                                finisher is temporarily unavailable on console</p>
+                            <div class="game-stats">
+                                <span><i class="fas fa-user"></i> Visits: 789.2K+</span>
+                                <span><i class="fas fa-star"></i> Rating: 2,104</span>
+                            </div>
+                            <a href="#" class="play-button">Play Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Add more game cards as needed -->
+                </div>
+            </div>
+
+            <!-- Changelogs Section -->
+            <div id="changelogs" class="section">
+                <h2>Changelogs</h2>
+                <div class="changelog-container">
+                    <!-- Changelog Entry -->
+                    <div class="changelog-entry">
+                        <div class="changelog-header">
+                            <h3>Tactical Assault - v0.2.0</h3>
+                            <span class="changelog-date">March 25, 2025</span>
+                        </div>
+                        <ul class="changelog-list">
+                            <li><span class="tag add">Added</span>Zombies BloodMoon</li>
+                            <li><span class="tag add">Added</span>Bikes</li>
+                            <li><span class="tag add">Added</span>More Guns</li>
+                            <li><span class="tag add">Added</span>Cars</li>
+                            <li><span class="tag fix">Fixed</span>SFX Fix - Now players can hear where the shooting is coming from.</li>
+                            <li><span class="tag improve">Improved</span>AI</li>
+                        </ul>
+                    </div>
+
+                    <!-- Changelog Entry -->
+                    <div class="changelog-entry">
+                        <div class="changelog-header">
+                            <h3>Untitled Invincible Game</h3>
+                            <span class="changelog-date">April 01, 2025</span>
+                        </div>
+                        <ul class="changelog-list">
+                            <li><span class="tag add">Added</span>New City</li>
+                            <li><span class="tag fix">Fixed</span>Some bugs</li>
+                            <li><span class="tag improve">Improved</span>Some new features</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Section -->
+            <div id="about" class="section">
+                <h2>About N.R. Studios</h2>
+                <div class="about-container">
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="img/profile-placeholder.jpg" alt="Developer Profile">
+                        </div>
+                        <div class="profile-info">
+                            <h3>nekorimnas</h3>
+                            <p class="profile-title">Web Developer / Game Developer</p>
+                            <p class="profile-bio">
+                                🔭 I’m currently working on:
+                                <br>
+                                I'm exploring various projects to strengthen my foundation in programming by experimenting with small-scale applications and scripts.
+                                <br>
+                                🤝 I’m looking for help with:
+                                <br>
+                                As a beginner, I’d appreciate guidance on debugging, project structure, and learning efficient coding practices, especially in Python.
+                                <br>
+                                🌱 I’m currently learning:
+                                <br>
+                                I'm studying Python, C#, Java, and JavaScript—with Python being the language I know best and feel most comfortable with.
+                                <br>
+                                ⚡ Fun fact:
+                                I'm just starting out in the coding world, but every small win motivates me to learn and grow even more!
+                            </p>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="img/profile-placeholder2.jpg" alt="Developer Profile">
+                        </div>
+                        <div class="profile-info">
+                            <h3>rimexizos</h3>
+                            <p class="profile-title">Game Developer</p>
+                            <p class="profile-bio">
+                                medved
+                            </p>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
